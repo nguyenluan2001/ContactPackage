@@ -13,7 +13,14 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Luannt\\Contact\\":"src/"
+            "Luannt\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Luannt\\Contact\\ContactServiceProvider"
+            ]
         }
     }
 }
