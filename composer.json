@@ -1,0 +1,19 @@
+{
+    "name": "luannt/contact",
+    "description": "Description of package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyen Thanh Luan",
+            "email": "ntluan0301@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Luannt\\Contact\\":"src/"
+        }
+    }
+}
